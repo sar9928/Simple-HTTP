@@ -1,0 +1,22 @@
+{
+  "name": "simple-http-assignment-start-master",
+  "version": "1.0.0",
+  "engines": {
+    "node": "10.10.0",
+    "npm": "6.4.1"
+  },
+  "description": "Simple http homework",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"No Tests\""
+  },
+  "author": "Stoney Reed",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
